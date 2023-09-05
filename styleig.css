@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.outerbox{
+    width: 100vw;
+    height: 100vh;
+    /* background:linear-gradient(to bottom left, white, rgb(235, 227, 227)) */
+    
+}
+.innerbox1{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    /* top: 20%; */
+    /* transform: translateY(-50%); */
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 1px;
+    border: 1px solid  rgba(212, 209, 209, 0.8);
+    box-shadow: 2px 2px 4px rgba(212, 209, 209, 0.8);
+    left: 200px;
+}
+h1{
+    font-size: 2.8rem;
+    color: #212121;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+
+}
+.innerbox2{
+    width: 400px;
+    height: 80px;
+    position: relative;
+    border: 1px solid rgba(212, 209, 209, 0.8);
+    border-radius: 1px;
+    background-color: white;
+    padding: 20px 80px;
+    /* top: 12%; */
+    /* left: 485px; */
+    box-shadow: 2px 2px 4px rgba(212, 209, 209, 0.8);
+    align-self: center;
+    right: 41px;
+    bottom: 20px;
+}
+.login-body{
+    margin: 40px 0;
+}
+.hii{
+    margin: 10px 0;
+    
+}
+
+.hey{
+    margin: 10px 0;
+}
+.login-body p lebel{
+    display: block;
+}
+.login-body p input{
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f4f7fa;
+}
+.login-body p input[type="submit"]{
+    background-color: #9fceed;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.login-body p input[type="submit"]:hover{
+    background-color: #3f92c9;
+}
+.login-footer{
+    color: rgb(36, 33, 33);
+    text-align: center;
+}
+
+.login-footer a{
+    color:#2dc6cf;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#facebook{
+    text-align: center;
+    text-decoration: none;
+    color: #385185; 
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 15px;
+    font-weight: bold;
+}
+#forgot{
+    text-align: center;
+    text-decoration: none;
+    color: #211ca6;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+.flexcontainer{
+    width: 1000px;
+    height: 550px;
+    /* border: 1px solid black; */
+    /* margin-left: 110px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.or{
+    display: inline;
+    font-weight: bolder;
+     margin: 20px;
+     color: rgba(141, 138, 138, 0.8);
+}
